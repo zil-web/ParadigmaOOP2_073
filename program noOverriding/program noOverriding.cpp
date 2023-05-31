@@ -7,9 +7,15 @@ public:
 		cout << "hallo saya dari base class";
 	}
 };
-class draivdedclass : public baseclass {
+class draivedclass : public baseclass {
 public:
 	void perkenalan() {
 		cout << "hallo saya function dari draided class";
 	}
 };
+int main() {
+	draivedclass a;
+	a.perkenalan();
+
+	return 0;
+}
